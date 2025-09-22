@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.dashboard-container {
+  padding: 16px 32px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.folder-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.folder-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.folder-card h4 {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.folder-card p {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.back-button {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #6200ee;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 50px;
+}
